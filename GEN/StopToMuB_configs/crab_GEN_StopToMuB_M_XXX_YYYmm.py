@@ -10,12 +10,12 @@ config.General.transferOutputs = True
 config.General.transferLogs = True
 
 config.JobType.pluginName = 'PrivateMC'
-config.JobType.psetName = f'/afs/cern.ch/user/r/rlopezru/private/run3ddm/StopToMuB2022/CMSSW_12_4_11_patch3/src/Run3SignalSampleProd/GEN/StopToMuB_configs/StopToMuB-M_{MASS}_ctau_{CTAU}mm_TuneCP5_13p6TeV_pythia8_cff.py'
+config.JobType.psetName = f'cmsRunconfigs/StopToMuB-M_{MASS}_ctau_{CTAU}mm_TuneCP5_13p6TeV_pythia8_cff.py'
 config.JobType.maxMemoryMB = 8000
 config.JobType.numCores = 8
 config.JobType.allowUndistributedCMSSW = True
 
-config.Data.outputPrimaryDataset = f'StopToMuB_M_{MASS}_{CTAU}mm_13p6TeV_2022MC'
+config.Data.outputPrimaryDataset = f'StopToMuB_M_{MASS}_{CTAU}mm_13p6TeV_2022MC_v0'
 config.Data.outputDatasetTag = 'GenSim'
 config.Data.splitting = 'EventBased'
 config.Data.unitsPerJob = 100

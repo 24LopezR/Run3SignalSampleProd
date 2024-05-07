@@ -4,7 +4,7 @@ mass_points = [100, 500, 1000, 1250, 1500]
 ctau_points = [1, 10, 100, 1000, 10000, 100000, 1000000]
 
 template = 'StopToMuB-M_XXX_ctau_YYYmm_TuneCP5_13p6TeV_pythia8_cff.py'
-outdir = '../../Configuration/Generator/python/'
+outdir = '../../../Configuration/Generator/python/'
 
 for M in mass_points:
     for ct in ctau_points:
@@ -15,6 +15,7 @@ for M in mass_points:
         text_out = text_out.replace('###CTAU###', str(ct))
 
         outfilename = f'StopToMuB-M_{M}_ctau_{ct}mm_TuneCP5_13p6TeV_pythia8_cff.py'
+        print(outdir+outfilename)
         with open(outdir+outfilename, 'w') as f_out:
             f_out.write(text_out)
 
