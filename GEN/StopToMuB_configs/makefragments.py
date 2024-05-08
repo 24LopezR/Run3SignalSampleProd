@@ -1,6 +1,7 @@
 import os
 
-mass_points = [100, 500, 1000, 1250, 1500]
+#mass_points = [100, 500, 1000, 1250, 1500]
+mass_points = [500]
 ctau_points = [1, 10, 100, 1000, 10000, 100000, 1000000]
 
 template = 'StopToMuB-M_XXX_ctau_YYYmm_TuneCP5_13p6TeV_pythia8_cff.py'

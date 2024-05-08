@@ -4,8 +4,8 @@ config = config()
 MASS = '###MASS###'
 CTAU = '###CTAU###'
 
-config.General.requestName = f'StopToMuB_M_{MASS}_{CTAU}mm_PREMIXRAW'
-config.General.workArea = '/eos/user/r/rlopezru/DisplacedDimuons/crabprojects_PREMIXRAW'
+config.General.requestName = f'StopToMuB_M_{MASS}_{CTAU}mm_PREMIXRAW_v0'
+config.General.workArea = '/eos/user/r/rlopezru/DisplacedDimuons/StopToMuB_CMSSW_12_4_20/PREMIXRAW/crabprojects'
 config.General.transferOutputs = True
 config.General.transferLogs = True
 
@@ -16,7 +16,7 @@ config.JobType.numCores = 8
 config.JobType.allowUndistributedCMSSW = True
 
 config.Data.inputDataset = '###INPUTDATASET###'
-config.Data.outputDatasetTag = 'DigiRawHlt'
+config.Data.outputDatasetTag = 'PREMIXRAW'
 config.Data.inputDBS = 'phys03'
 config.Data.splitting = 'FileBased'
 config.Data.unitsPerJob = 1

@@ -1,20 +1,14 @@
 template = 'crab_PREMIXRAW_StopToMuB_M_XXX_YYYmm.py'
 
-mass_points = [1000, 1250, 1500]
-ctau_points = [1,10,100,1000,10000,100000,1000000]
+mass_points = [500]
+ctau_points = [1,10,100,1000,10000,100000]
 
-inputdatasets = {'100_1': '/StopToMuB_M_100_1mm_13p6TeV_2022MC/rlopezru-GenSim-1c8a74d9d78af90af15f5d7de5c3e95f/USER',
-                 '100_10': '/StopToMuB_M_100_10mm_13p6TeV_2022MC/rlopezru-GenSim-11a6a202c12457305becc87566e4b4c2/USER',
-                 '100_100': '/StopToMuB_M_100_100mm_13p6TeV_2022MC/rlopezru-GenSim-454bd2df6f7398f6ac8e05d02132a685/USER',
-                 '100_1000': '/StopToMuB_M_100_1000mm_13p6TeV_2022MC/rlopezru-GenSim-e294eda6e345e36c91d06ea8bf3c19a6/USER',
-                 '100_10000': '/StopToMuB_M_100_10000mm_13p6TeV_2022MC/rlopezru-GenSim-f74677a77c16ae31843c6f0d7adc0368/USER',
-                 '100_100000': '/StopToMuB_M_100_100000mm_13p6TeV_2022MC/rlopezru-GenSim-58e1565bf46d76389288fb1dfc8ce9cd/USER',
-                 '500_100000': '/StopToMuB_M_500_100000mm_13p6TeV_2022MC/rlopezru-GenSim-4934913cb0078d77093b7fd77aeb5a8c/USER',
-                 '500_10000':  '/StopToMuB_M_500_10000mm_13p6TeV_2022MC/rlopezru-GenSim-587f1033e614203609addc2890f9f059/USER',
-                 '500_1000':   '/StopToMuB_M_500_1000mm_13p6TeV_2022MC/rlopezru-GenSim-1194ba89351b2667958a3dabcb7c3272/USER',
-                 '500_100':    '/StopToMuB_M_500_100mm_13p6TeV_2022MC/rlopezru-GenSim-b8f489d83e237850d00310615a010d8a/USER',
-                 '500_10':     '/StopToMuB_M_500_10mm_13p6TeV_2022MC/rlopezru-GenSim-c910743d4a3f0c23ad0be3f60533bf40/USER',
-                 '500_1':      '/StopToMuB_M_500_1mm_13p6TeV_2022MC/rlopezru-GenSim-9337f16f2cd17e2f7836155ca90b9b8c/USER', 
+inputdatasets = {'500_100000': '/StopToMuB_M_500_100000mm_13p6TeV_2022MC_CMSSW_12_4_20_v0/rlopezru-GENSIM-4788604166596253c1aa09f33ee6493a/USER',
+                 '500_10000': '/StopToMuB_M_500_10000mm_13p6TeV_2022MC_CMSSW_12_4_20_v0/rlopezru-GENSIM-6dbeb08e115b3fc4389dd814af612b70/USER',
+                 '500_1000': '/StopToMuB_M_500_1000mm_13p6TeV_2022MC_CMSSW_12_4_20_v0/rlopezru-GENSIM-e35e8810903e828bb9aec41239033696/USER',
+                 '500_100': '/StopToMuB_M_500_100mm_13p6TeV_2022MC_CMSSW_12_4_20_v0/rlopezru-GENSIM-d0d102b0a94b5299ed17272f1e60e3a5/USER',
+                 '500_10': '/StopToMuB_M_500_10mm_13p6TeV_2022MC_CMSSW_12_4_20_v0/rlopezru-GENSIM-7a148e75414ff8f3b36f5658ed1983fc/USER',
+                 '500_1': '/StopToMuB_M_500_1mm_13p6TeV_2022MC_CMSSW_12_4_20_v0/rlopezru-GENSIM-b4390a366bdb9a745205550928109d9b/USER',
                  '1000_1000000': '/StopToMuB_M_1000_1000000mm_13p6TeV_2022MC/rlopezru-GenSim-03e045847b4e569bac756f9b1a62661e/USER',
                  '1000_100000': '/StopToMuB_M_1000_100000mm_13p6TeV_2022MC/rlopezru-GenSim-55303ffbcd2b28618a30191c7098dd0d/USER',
                  '1000_10000': '/StopToMuB_M_1000_10000mm_13p6TeV_2022MC/rlopezru-GenSim-3a1e5fb1e0e46fc8f2658a616d915873/USER',
